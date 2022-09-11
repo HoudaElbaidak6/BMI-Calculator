@@ -18,15 +18,15 @@ function calculate() {
       alert("we want numbers please");
     } else {
       if (BMI < 18.5) {
-        output.textContent = `Your BMI ${BMI} which means you are underweight . Is your name Indomie ?? beacuse damn you are noodle .`;
+        output.textContent = `Your BMI is ${BMI} which means you are underweight . Is your name Indomie ?? beacuse damn you are a noodle .`;
       } else if (BMI >= 18.5 && BMI < 25) {
-        output.textContent = `Your BMI ${BMI} which means your weight is normal , I'm jealous of you. `;
+        output.textContent = `Your BMI is ${BMI} which means your weight is normal , I'm jealous of you. `;
       } else if (BMI >= 25 && BMI < 30) {
-        output.textContent = `Your BMI ${BMI} which means you're overweight, stop eating you fat fuck.  `;
+        output.textContent = `Your BMI is ${BMI} which means you're overweight, stop eating you fat fuck.  `;
       } else if (BMI >= 30 && BMI < 40) {
-        output.textContent = `Your BMI ${BMI} which means you're Obese , damn you really let yourself go , start a diet bestie. `;
+        output.textContent = `Your BMI is ${BMI} which means you're Obese , damn you really let yourself go , start a diet bestie. `;
       } else {
-        output.textContent = `Your BMI ${BMI} which means you're Extremly Obese , You and a whale are bestfriends , I recommend going to a doctor ASAP. `;
+        output.textContent = `Your BMI is ${BMI} which means you're Extremly Obese , You and a whale are bestfriends , I recommend going to a doctor ASAP. `;
       }
     }
     weightValue = "";
