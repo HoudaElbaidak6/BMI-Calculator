@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 98vh;
+  background: radial-gradient(#e66465, #9198e5);
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #2c2e47;
+}
+
+h2 > i {
+  color: pink;
+}
+
+h4 {
+  margin: 0px;
+}
+/* #navbar {
+  padding: 20px 179px;
+  border: coral solid 5px;
+  background-color: coral;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+#navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  width: 29.7%;
+  padding: 10px 8px;
+  background-color: pink;
+
+  /* border: coral solid 5px; */
+  /* padding: 20px 150px; */
+
+  /* box-sizing: border-box; */
+}
+
+#navbar > i {
+  font-size: 1.3em;
+  font-weight: 100;
+  cursor: pointer;
+}
+#calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 20px;
+  border-right: 7px solid pink;
+  border-left: 5px solid pink;
+  border-bottom: 5px solid pink;
+  padding: 50px 100px;
+  box-sizing: border-box;
+}
+
+#calculator > h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #2c2e47;
+}
+
+input {
+  border: 2px solid pink;
+  outline: 1px solid pink;
+  border-radius: 10px;
+  padding: 6px 20px;
+  color: #2c2e47;
+  font-weight: bold;
+}
+
+input:active {
+  outline: 1px solid pink;
+}
+
+button {
+  margin-top: 10px;
+  border: 1px solid pink;
+  outline: 1px solid pink;
+  border-radius: 10px;
+  padding: 6px 20px;
+  background-color: pink;
+  font-size: 1em;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 1px 1px rgb(235, 178, 188);
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c2e47;
+}
+
+button:active {
+  background-color: pink;
+  box-shadow: 0 5px rgb(240, 172, 172);
+  transform: translateY(4px);
+}
+
+#output {
+  margin-top: 40px;
+  font-size: 1.4em;
+  color: #2c2e47;
+}
