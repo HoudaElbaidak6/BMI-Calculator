@@ -18,7 +18,7 @@ function calculate() {
       alert("we want numbers please");
     } else {
       if (BMI < 18.5) {
-        output.textContent = `Your BMI ${BMI} which means you are underweight , go eat something bestie.`;
+        output.textContent = `Your BMI ${BMI} which means you are underweight . Is your name Indomie ?? beacuse damn you are noodle .`;
       } else if (BMI >= 18.5 && BMI < 25) {
         output.textContent = `Your BMI ${BMI} which means your weight is normal , I'm jealous of you. `;
       } else if (BMI >= 25 && BMI < 30) {
