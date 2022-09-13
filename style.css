@@ -32,26 +32,6 @@ h4 {
   align-items: center;
 } */
 
-#navbar {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 15px;
-  width: 29.7%;
-  padding: 10px 8px;
-  background-color: pink;
-
-  /* border: coral solid 5px; */
-  /* padding: 20px 150px; */
-
-  /* box-sizing: border-box; */
-}
-
-#navbar > i {
-  font-size: 1.3em;
-  font-weight: 100;
-  cursor: pointer;
-}
 #calculator {
   display: flex;
   justify-content: center;
@@ -59,9 +39,7 @@ h4 {
   flex-direction: column;
 
   gap: 20px;
-  border-right: 7px solid pink;
-  border-left: 5px solid pink;
-  border-bottom: 5px solid pink;
+
   padding: 50px 100px;
   box-sizing: border-box;
 }
